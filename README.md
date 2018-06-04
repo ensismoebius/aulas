@@ -1,3 +1,1 @@
-# aulas
-Fontes e projetos de aulas dadas
-Teste
+# Fontes e projetos de aulas dadas
