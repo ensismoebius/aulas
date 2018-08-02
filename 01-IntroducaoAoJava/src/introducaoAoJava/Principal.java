@@ -27,10 +27,26 @@ public class Principal {
 		// 21 anos depois... Apiu is dead!!!!
 
 		Humano tonia = roxele.receberGameta(uepeka.produzirGameta());
+		tonia.setNome("Tonia");
 
 		XHumano toniarine = (XHumano) tonia;
 		toniarine.setSuperPoder("Super testa");
+		
+		System.out.println(toniarine.getNome());
 
+		InstitutoParaPessoasSuperDotadas x = new InstitutoParaPessoasSuperDotadas();
+		
+		x.adicionarAluno(toniarine);
+		
+		toniarine.ficaAdmirada();
+		
+		XWing meuAviao = new XWing();
+		
+		Hangar hangar = new Hangar();
+		
+		hangar.abrigarAeronave(meuAviao);
 	}
 
 }
+
+

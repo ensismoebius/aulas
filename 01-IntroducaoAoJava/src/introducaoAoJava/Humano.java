@@ -11,6 +11,12 @@ public class Humano {
 		this.respirar();
 	}
 
+	
+	public void ficaAdmirada() {
+		System.out.println("Uau!");
+		
+	}
+	
 	private void respirar() {
 		System.out.println("respirei");
 
